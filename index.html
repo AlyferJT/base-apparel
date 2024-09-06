@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Base Apparel</title>
+
+		<link rel="stylesheet" href="./style.css" />
+
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<main class="container">
+			<div class="content">
+				<div class="content__logo">
+					<img
+						class="logo-img"
+						src="./images/logo.svg"
+						alt="Base Apparel Logo"
+					/>
+				</div>
+
+				<!--================================-->
+				<!-- BOX TO SET HERO IMAGE - MOBILE -->
+				<div class="hero-img-mobile-box">
+					<img src="./images/hero-mobile.jpg" alt="woman posing" />
+				</div>
+				<!--================================-->
+
+				<div class="content__info">
+					<h1 class="content__info__title"><span>We're</span> coming soon</h1>
+					<p class="content__info__text">
+						Hello fellow shoppers! We're currently building our new fashion
+						store. Add your email below to stay up-to-date with announcements
+						and our launch deals.
+					</p>
+					<form class="content__info__form" action="/">
+						<input
+							class="content__info__form__email"
+							name="email"
+							id="email"
+							placeholder="Email Address"
+						/>
+						<button class="content__info__form_btn">
+							<img
+								src="./images/icon-arrow.svg"
+								alt="arrow icon inside the button"
+							/>
+						</button>
+
+						<!-- ERROR ELEMENTS -->
+						<div class="error-box">
+							<img src="./images/icon-error.svg" alt="error icon" />
+						</div>
+
+						<span class="error-feedback">Please provide a valid email</span>
+					</form>
+				</div>
+			</div>
+
+			<!--=================================-->
+			<!-- BOX TO SET HERO IMAGE - DESKTOP -->
+			<div class="hero-img-desktop-box">
+				<img src="./images/hero-desktop.jpg" alt="woman posing" />
+			</div>
+			<!--=================================-->
+		</main>
+	</body>
+</html>
